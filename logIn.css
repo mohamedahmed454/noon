@@ -1,0 +1,251 @@
+.page{
+  width: 530px;
+ margin: 50px auto;
+ background-color: white;
+ box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.242);
+ height: 400px;
+}
+#error{
+  font-size: 15px;
+  color: rgba(178, 44, 44, 0.712);
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  text-align: center;
+  background-color: #feee00;
+  padding: 8px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.242);
+  margin-bottom: 10px;
+}
+nav h3{
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div .form{
+  width: 100%;
+}
+div .form form .txt{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+div .form form .txt input{
+ width: 240px;
+ padding: 8px;
+ border: 1px solid rgba(128, 128, 128, 0.244);
+ border-radius: 2px;
+ outline: none;
+ margin-bottom: 8px;
+}
+div .form form .date{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+div .form form .date input{
+ width: 152.5px;
+ padding: 8px;
+ border: 1px solid rgba(128, 128, 128, 0.244);
+ border-radius: 2px;
+ outline: none;
+}
+div .form form .phone{
+  width: 300px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+div .form form .phone input{
+  width: 240px;
+  padding: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.244);
+  border-radius: 2px;
+  outline: none;
+}
+div .form form .gender{
+  margin-bottom: 8px;
+  gap: 5px;
+}
+div .form form .gender input{
+ padding: 8px;
+ border: 1px solid rgba(128, 128, 128, 0.244);
+ border-radius: 2px;
+ outline: none;
+}
+div .form form .email{
+  width: 300px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+div .form form .email input{
+ width: 240px;
+ padding: 8px;
+ border: 1px solid rgba(128, 128, 128, 0.244);
+ border-radius: 2px;
+ outline: none;
+}
+div .form form .pass{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+div .form form .pass input{
+ width: 240px;
+ padding: 8px;
+ border: 1px solid rgba(128, 128, 128, 0.244);
+ border-radius: 2px;
+ outline: none;
+}
+div .form form .send{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+div .form form .send button{
+ width: 240px;
+ padding: 8px;
+ border: 1px solid rgba(128, 128, 128, 0.244);
+ border-radius: 2px;
+ outline: none;
+}
+
+
+#loaded-overlay{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#loaded-overlay .one{
+  width: 50px;
+ height: 50px;
+ padding: 10px;
+ border-radius: 50%;
+  background-color: var(--mainColor);
+  animation-name: loading;
+  animation-duration: .4s;
+  animation-delay: 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ animation-fill-mode: both;
+}
+#loaded-overlay .two{
+  width: 50px;
+ height: 50px;
+ padding: 10px;
+ border-radius: 50%;
+  background-color: var(--mainColor);
+  animation-name: loading;
+  animation-duration: .4s;
+  animation-delay: .9s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ animation-fill-mode: both;
+}
+#loaded-overlay .three{
+ width: 50px;
+ height: 50px;
+ padding: 10px;
+ border-radius: 50%;
+ background-color: var(--mainColor);
+ animation-name: loading;
+ animation-duration: .4s;
+ animation-delay: 1s;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+}
+#loaded-overlay .four{
+ width: 50px;
+ height: 50px;
+ padding: 10px;
+ border-radius: 50%;
+ background-color: var(--mainColor);
+ animation-name: loading;
+ animation-duration: .4s;
+ animation-delay: 1.1s;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+}
+#loaded-overlay .five{
+ width: 50px;
+ height: 50px;
+ padding: 10px;
+ border-radius: 50%;
+ background-color: var(--mainColor);
+ animation-name: loading;
+ animation-duration: .4s;
+ animation-delay: 1.2s;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+}
+#loaded-overlay .six{
+ width: 50px;
+ height: 50px;
+ padding: 10px;
+ border-radius: 50%;
+ background-color: var(--mainColor);
+ animation-name: loading;
+ animation-duration: .4s;
+ animation-delay: 1.3s;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+}
+#loaded-overlay .seven{
+ width: 50px;
+ height: 50px;
+ padding: 10px;
+ border-radius: 50%;
+ background-color: var(--mainColor);
+ animation-name: loading;
+ animation-duration: .4s;
+ animation-delay: 1.4s;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: both;
+}
+#loaded-overlay div p{
+  position: relative;
+  top: 0;
+  transform: translate(0,-60%);
+ font-size: 30px;
+ text-align: center;
+ font-weight: var(--fontWeight);
+}
+
+@keyframes loading{
+  0%{
+      opacity: .3;
+      background-color: rgb(255, 0, 0);
+  }
+  50%{
+    opacity: .5;
+     background-color:rgb(255, 0, 242) ;
+  }
+  100%{
+    opacity: 1;
+    background-color:rgb(85, 0, 255) ;
+  }
+}
